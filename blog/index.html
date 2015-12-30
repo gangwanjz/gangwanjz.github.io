@@ -1,1 +1,85 @@
-<!--Created by jiazhao on 15-12-26.--><!DOCTYPE html><html><head><meta charset="utf-8"><title>Hello world</title><link href="dist/css/main.css" rel="stylesheet"><script src="dist/js/main.js"></script></head><body><header>这是头部</header><article><include><marked>hello.md</marked></include></article><footer>这是底部</footer></body></html>
+<!--Created by jiazhao on 15-12-26.--><!DOCTYPE html><html><head><meta charset="utf-8"><title>Hello world</title><link href="dist/css/main.css" rel="stylesheet"><script src="dist/js/main.js"></script></head><body><header>这是头部</header><article><p>##mac的使用点滴</p>
+<p>对文件重命名：选中文件按回车</p>
+<p>打开文件：鼠标双击或者command+o</p>
+<p>关闭：command+q</p>
+<p>复制：command+c</p>
+<p>粘贴：command+v</p>
+<p>移动文件：command+c复制之后 option+command+v 可以实现move to here 的功能</p>
+<p>切换应用程序：command+tab</p>
+<p>把选中的资源移到废纸篓：command+delete</p>
+<p>查询：command+f</p>
+<p>当前是浏览器可以直接定位到地址栏：command+l</p>
+<p>放大或缩小字体：command+“+/-”</p>
+<p>切换输入法：command＋space</p>
+<p>呼出spotlight：control＋space</p>
+<p>mac默认简体拼音输入法切换中英文：caps lock 键</p>
+<p>输入法：shift＋6 有惊喜 …… (^_^)</p>
+<p>前往文件夹：shift＋command＋G</p>
+<h2 id="-">文本编辑器</h2>
+<p>Vim：号称编辑器之神</p>
+<p>TextMate：mac的专有编辑器</p>
+<p>下载：</p>
+<p>1、浏览器下载 推荐chorem</p>
+<p>2、命令行下载 ：打开终端输入wget 后边跟下载地址就可以了</p>
+<p>终端输入说英语：直接在终端输入 say polymer 就可以发出标准的英语</p>
+<p>使用sips命令批量处理图片：</p>
+<pre><code>     ＃改变当前用户文件夹下的所有JPG图片的大小
+     sips -Z 800 ~/Pictures/*.jpg
+     #顺时针旋转90度
+     sips -r 90 ~/Pictures/*.jpg
+     #垂直反转
+     sips -f vertical ~/Pictures/*.jpg
+</code></pre><p>查看文件得大小：</p>
+<pre><code> 打开终端 cd该目录  输入 du sh*
+</code></pre><p>显示隐藏文件</p>
+<pre><code> 在终端中 ls -a
+ 在Finder 中 shift+command+.
+</code></pre><p>监控mac的运行情况</p>
+<pre><code> 打开终端 输入 top 可以查看进程情况 输入 q可以退出
+</code></pre><p>批量复制文件</p>
+<pre><code> 进入该目录，执行如下命令：（如果想要剪切 把cp改为mv）
+ cp *.png *.jpg *.gif /destpath  (把该目录下后缀为png、jpg、gif的图片复制到另一个文件夹去) 
+</code></pre><p> 远程复制</p>
+<pre><code> 具体命令：scp  ./testfile.txt username@10.10.10.22:/tmp
+ 回车之后按要求输入username的password 只会将将目录下的testfile.txt复制到 10:10:10:22 下的/tmp文件夹下
+ scp username@10.10.10.22:/tmp/testfile.txt   ./ 
+ 从远程复制到本地
+</code></pre><p>终端命令 open</p>
+<pre><code> open可以直接打开目录 open /User
+ open 也可以打开文件、程序、指定程序打开文件、打开网址等
+      open a.txt
+      open -a Safari
+      open -a TextMate a.txt
+      open http://news.sina.com.cn 
+</code></pre><p>特殊字符：</p>
+<pre><code> 美元 $ shif+4
+ 美分¢ option+4
+ 英镑£ option+3
+ 人民币¥ option+y
+ 欧元€ shift+option+2
+ 连接符– option+-
+ 破折号— shift+option+-
+ 省略号… option+；
+ 约等于≈ option+x
+ 度° shift+option+8
+ 除号 ÷ option+/
+ 无穷大∞ option+5
+ ≤ option+,
+ ≥ option+.
+ ≠ option+=
+ π option+p
+ ± shift+option+=
+ √ option+v
+  总和∑ option+w
+ 商标™ option+2
+ 注册® option+r
+ 版权© option+g
+</code></pre><p>三个手指轻拍 可以系统弹出词典查询</p>
+<p>让Mac不进入休眠状态：命令行输入 pmset noidle</p>
+<p>四指化开 可以显示桌面</p>
+<p>command＋上下键可以当滚动条使用</p>
+<p>finder的前往文件夹快捷键 shift＋command＋g</p>
+<p>强制关闭!
+     option＋command＋esc</p>
+<p>启动apache：sudo apachectl start</p>
+</article><footer>这是底部</footer></body></html>
