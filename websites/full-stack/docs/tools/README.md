@@ -3,4 +3,6 @@
 * Dribbble
 * github Page
     gh-pages
-* jekyll
+* jekyll/Dexy
+* httpwatch
+* pagespeed(chrom开发者工具)
