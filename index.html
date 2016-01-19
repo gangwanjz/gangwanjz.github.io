@@ -3,9 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <title>web and so on</title>
+    <style>
+        .summary{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            overflow-y: auto;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            -webkit-transition: top .5s ease;
+            -moz-transition: top .5s ease;
+            -o-transition: top .5s ease;
+            transition: top .5s ease;
+        }
+        li{
+            list-style: none;
+        }
+        li a:hover {
+            color: #008cff;
+            background: transparent;
+            text-decoration: none;
+        }
+        li span,li a {
+            display: block;
+            padding: 10px 15px;
+            border-bottom: 0;
+            color: #364149;
+            background: transparent;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            position: relative;
+        }
+        li.done>a {
+            color: #364149;
+            font-weight: normal;
+        }
+    </style>
 </head>
 <body>
-    <a href="websites/full-stack/book/index.html">web 全栈自我修养</a>
-    <a href="project/auto-web/index.html">auto-web</a>
+<ul class="summary">
+    <li class="chapter  done" data-level="2" data-path="websites/full-stack/book/index.html">
+        <a href="websites/full-stack/book/index.html">
+            <i class="fa fa-check"></i>
+            <b>1.</b>
+            web 全栈自我修养
+        </a>
+    </li>
+    <li class="chapter  done" data-level="2" data-path="project/auto-web/index.html">
+        <a href="project/auto-web/index.html">
+            <i class="fa fa-check"></i>
+            <b>2.</b>
+            auto-web
+        </a>
+    </li>
+    <li class="chapter  done" data-level="2" data-path="websites/house/book/index.html">
+        <a href="websites/house/book/index.html">
+            <i class="fa fa-check"></i>
+            <b>3.</b>
+            house
+        </a>
+    </li>
+</ul>
 </body>
 </html>
