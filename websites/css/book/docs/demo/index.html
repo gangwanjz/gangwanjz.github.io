@@ -1,0 +1,337 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>demo | CSS 相关总结</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.3.3">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../../gitbook/plugins/gitbook-plugin-prism/prism.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../../docs/h5/index.html" />
+    
+    
+    <link rel="prev" href="../../docs/layout/index.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book" data-level="2" data-basepath="../.." data-revision="Wed Jan 20 2016 12:24:59 GMT+0800 (CST)">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+        
+        
+        
+
+        
+
+        
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        首页
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="docs/layout/index.html">
+            
+                
+                    <a href="../../docs/layout/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        layout
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="2" data-path="docs/demo/index.html">
+            
+                
+                    <a href="../../docs/demo/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        demo
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="docs/h5/index.html">
+            
+                
+                    <a href="../../docs/h5/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        h5
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="docs/animation/index.html">
+            
+                
+                    <a href="../../docs/animation/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        animation
+                    </a>
+            
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                Published with GitBook
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Table of Contents"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Font Settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Share"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">
+                    Share on Twitter
+                </button>
+                <button type="button" data-sharing="google-plus" class="button">
+                    Share on Google
+                </button>
+                <button type="button" data-sharing="facebook" class="button">
+                    Share on Facebook
+                </button>
+                <button type="button" data-sharing="weibo" class="button">
+                    Share on Weibo
+                </button>
+                <button type="button" data-sharing="instapaper" class="button">
+                    Share on Instapaper
+                </button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Google"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+    
+
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../" >CSS 相关总结</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="css-%E5%B8%B8%E7%94%A8%E6%A0%B7%E5%BC%8F%E5%90%88%E9%9B%86">css &#x5E38;&#x7528;&#x6837;&#x5F0F;&#x5408;&#x96C6;</h1>
+<h2 id="%E7%AE%80%E5%8D%95%E6%90%9C%E7%B4%A2%E6%A1%86">&#x7B80;&#x5355;&#x641C;&#x7D22;&#x6846;</h2>
+<p>&#x8981;&#x6C42;:input+button&#x5B9E;&#x73B0;&#x4E00;&#x4E2A;&#x641C;&#x7D22;&#x6846; input&#x81EA;&#x9002;&#x5E94;&#x5BBD; button&#x5B9A;&#x5BBD;</p>
+<ul>
+<li>&#x65B9;&#x6848;1 : table</li>
+</ul>
+<pre><code class="lang-html">
+<span class="token operator">&lt;</span>div <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">&quot;search-box&quot;</span><span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>input <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">&quot;search-box-input&quot;</span> placeholder<span class="token operator">=</span><span class="token string">&quot;search&quot;</span> type<span class="token operator">=</span><span class="token string">&quot;text&quot;</span> <span class="token operator">/</span><span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>span <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">&quot;search-box-btn&quot;</span><span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span>button <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">&quot;btn&quot;</span> type<span class="token operator">=</span><span class="token string">&quot;button&quot;</span><span class="token operator">&gt;</span>Search<span class="token operator">&lt;</span><span class="token operator">/</span>button<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>span<span class="token operator">&gt;</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+
+<span class="token operator">&lt;</span>style<span class="token operator">&gt;</span>
+
+    <span class="token punctuation">.</span>search<span class="token operator">-</span>box<span class="token punctuation">{</span>
+        position<span class="token punctuation">:</span>relative<span class="token punctuation">;</span>
+        display<span class="token punctuation">:</span>table<span class="token punctuation">;</span>
+        border<span class="token operator">-</span>collapse<span class="token punctuation">:</span>separate<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token punctuation">.</span>search<span class="token operator">-</span>box<span class="token operator">-</span>input<span class="token punctuation">{</span>
+        position<span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
+        display<span class="token punctuation">:</span>table<span class="token operator">-</span>cell<span class="token punctuation">;</span>
+        z<span class="token operator">-</span>index<span class="token punctuation">:</span> <span class="token number">2</span><span class="token punctuation">;</span>
+        width<span class="token punctuation">:</span> <span class="token number">100</span><span class="token operator">%</span><span class="token punctuation">;</span>
+        height<span class="token punctuation">:</span> 34px<span class="token punctuation">;</span>
+        padding<span class="token punctuation">:</span> 6px 12px<span class="token punctuation">;</span>
+        font<span class="token operator">-</span>size<span class="token punctuation">:</span> 14px<span class="token punctuation">;</span>
+        line<span class="token operator">-</span>height<span class="token punctuation">:</span> <span class="token number">1.4</span><span class="token punctuation">;</span>
+        color<span class="token punctuation">:</span> #<span class="token number">555</span><span class="token punctuation">;</span>
+        background<span class="token punctuation">:</span> #fff<span class="token punctuation">;</span>
+        border<span class="token punctuation">:</span> 1px solid #ccc<span class="token punctuation">;</span>
+        box<span class="token operator">-</span>sizing<span class="token punctuation">:</span> border<span class="token operator">-</span>box<span class="token punctuation">;</span>
+        outline<span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token punctuation">.</span>search<span class="token operator">-</span>box<span class="token operator">-</span>btn<span class="token punctuation">{</span>
+        position<span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
+        display<span class="token punctuation">:</span>table<span class="token operator">-</span>cell<span class="token punctuation">;</span>
+        font<span class="token operator">-</span>size<span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">;</span>
+        white<span class="token operator">-</span>space<span class="token punctuation">:</span> nowrap<span class="token punctuation">;</span>
+        width<span class="token punctuation">:</span><span class="token number">1</span><span class="token operator">%</span><span class="token punctuation">;</span>
+        vertical<span class="token operator">-</span>align<span class="token punctuation">:</span>middle<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token punctuation">.</span>btn<span class="token punctuation">{</span>
+        display<span class="token punctuation">:</span>inline<span class="token operator">-</span>block<span class="token punctuation">;</span>
+        padding<span class="token punctuation">:</span>6px 12px<span class="token punctuation">;</span>
+        font<span class="token operator">-</span>size<span class="token punctuation">:</span>14px<span class="token punctuation">;</span>
+        line<span class="token operator">-</span>height<span class="token punctuation">:</span><span class="token number">1.4</span><span class="token punctuation">;</span>
+        text<span class="token operator">-</span>align<span class="token punctuation">:</span>center<span class="token punctuation">;</span>
+        white<span class="token operator">-</span>space<span class="token punctuation">:</span>nowrap<span class="token punctuation">;</span>
+        cursor<span class="token punctuation">:</span>pointer<span class="token punctuation">;</span>
+        touch<span class="token operator">-</span>action<span class="token punctuation">:</span>manipulation<span class="token punctuation">;</span>
+        color<span class="token punctuation">:</span>#58666e<span class="token punctuation">;</span>
+        background<span class="token punctuation">:</span>#fff<span class="token punctuation">;</span>
+        border<span class="token operator">-</span>color<span class="token punctuation">:</span>#dee5e7 #dee5e7 #d8e1e3<span class="token punctuation">;</span>
+        outline<span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+<span class="token operator">&lt;</span><span class="token operator">/</span>style<span class="token operator">&gt;</span>
+</code></pre>
+<p>&#x601D;&#x8DEF;:&#x4F7F;&#x7528; <em>display:table</em> &#x548C; <em>display:table-cell</em>&#x6765;&#x5E03;&#x5C40;;<br>input&#x548C;button&#x8981;&#x4FDD;&#x969C;padding&#x548C;line-height&#x4E00;&#x81F4;;<br>input&#x5BBD;&#x8BBE;&#x7F6E;100%,search-box-btn&#x5BBD;&#x8BBE;&#x7F6E;1%;<br>input&#x4E00;&#x5B9A;&#x8981;&#x8BBE;&#x7F6E;box-sizing: border-box</p>
+<ul>
+<li><p>&#x65B9;&#x6848;2 : position TODO</p>
+</li>
+<li><p>&#x65B9;&#x6848;3 : flex TODO</p>
+</li>
+</ul>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../../docs/layout/index.html" class="navigation navigation-prev " aria-label="Previous page: layout"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../../docs/h5/index.html" class="navigation navigation-next " aria-label="Next page: h5"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../../gitbook/app.js"></script>
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

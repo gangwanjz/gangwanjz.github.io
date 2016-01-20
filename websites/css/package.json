@@ -1,0 +1,28 @@
+{
+  "name":"css",
+  "description":"css相关整理",
+  "scripts":{
+    "clean":"rimraf -book",
+    "build":"gitbook build -g gangwanjz/full-stack",
+    "watch":"gitbook serve",
+    "publish":"bash publish.sh"
+  },
+  "repository":{
+    "type":"git",
+    "url":"https://github.com/gangwanjz/full-stack.git"
+  },
+  "keywords":[
+    "css",
+    "layout",
+    "ht5"
+  ],
+  "author":"gangwanjz",
+  "license":"MIT",
+  "devDependencies": {
+    "gitbook-cli": "^0.3.4",
+    "gitbook-plugin-prism": "^0.1.1",
+    "gitbook-plugin-ga": "^0.2.1",
+    "gitbook-plugin-edit-link": "^1.4.1",
+    "rimraf": "^2.3.4"
+  }
+}
