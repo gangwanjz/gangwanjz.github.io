@@ -69,6 +69,8 @@ input和button要保障padding和line-height一致;
 input宽设置100%,search-box-btn宽设置1%;  
 input一定要设置box-sizing: border-box
 
+[demo](layout.html)
+
 * 方案2 : position TODO
 
 * 方案3 : flex TODO
