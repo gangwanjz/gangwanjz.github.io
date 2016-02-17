@@ -5,4 +5,5 @@
     * [git](docs/tools/git.md)
     * [gulp](docs/tools/gulp.md)
 * [推荐书籍](/docs/books/README.md)
-* [相关知识](/docs/other/README.md)    
+* [相关知识](/docs/other/README.md) 
+* [other](/docs/other/custom.md)   
