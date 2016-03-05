@@ -6,4 +6,5 @@
    * [喜欢的一些效果](/docs/design/refer.md)
    * [自己的一些想法](/docs/design/idea.md)
    * [效果图回复](/docs/design/answer.md)
+   * [效果图第二版回复](/docs/design/answer2.md)
 * [装修阶段](/docs/decoration/README.md) 
